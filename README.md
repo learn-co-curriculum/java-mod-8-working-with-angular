@@ -26,15 +26,15 @@ should answer them for now:
 
 1. "Would you like to add Angular routing?": Angular routing is to manage the
    navigation between different parts of your SPA.
-   1. Answer no to this question, as our initial set up will not concern itself
-      with navigation just yet.
+   - Answer no to this question, as our initial set up will not concern itself
+     with navigation just yet.
 2. "Which stylesheet format would you like to use?": Just like JavaScript is
    native to the web and the browser, so is CSS, and just like JavaScript has
    unfortunate limitations that make it a sometimes difficult language to work
    with, so does CSS. So there are a few other ways to handle styling that, just
    like TypeScript translates into JavaScript, also translate into CSS. For now,
    however, we will stick to native CSS.
-   1. Just hit enter here to choose the default CSS option
+   - Just hit enter here to choose the default CSS option
 
 The CLI has now created a folder for you named `flatiron-angular`, which has in
 it the right folder structure and all the configuration files we need in order
@@ -46,13 +46,13 @@ Angular project:
    `cd flatiron-angular` if you're in the directory from which you ran the
    `ng new` command.
 2. Second, run the `ng serve` command, which:
-   1. Compiles and bundles your project files to get them ready for the browser
-   2. Starts a small web server to allow you to see your application running
-      "locally"
-   3. Start a file watcher that looks for changes in your project files and
-      automatically re-packages your app for the browser when you make changes.
-      This means you will see your source changes automatically in the browser,
-      as long as you keep the `ng serve` process running.
+   - Compiles and bundles your project files to get them ready for the browser
+   - Starts a small web server to allow you to see your application running
+     "locally"
+   - Start a file watcher that looks for changes in your project files and
+     automatically re-packages your app for the browser when you make changes.
+     This means you will see your source changes automatically in the browser,
+     as long as you keep the `ng serve` process running.
 
 After running `ng serve`, the application you just created will be available in
 the browser at the following URL: `http://localhost:4200/`. Open up your browser
