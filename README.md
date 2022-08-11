@@ -129,6 +129,34 @@ should look like this:
 
 ![Angular Simplified Welcome](https://curriculum-content.s3.amazonaws.com/java-mod-8/ng-simplified-welcome.png)
 
+## Basic styling with Bootstrap
+
+Bootstrap is a CSS framework that provides basic CSS styles to customize an
+application with standard elements, such as buttons, form elements and HTML
+structure.
+
+You can install Bootstrap for any Angular project using the following command:
+
+```
+npm install --save bootstrap
+```
+
+In order for your project to use Bootstrap styles seamlessly, we need to change
+its configuration as follows:
+
+- Look for the `angular.json` file in the base directory of your project:
+  `<project-root>/angular.json`
+- Look for the following entry:
+  `projects->flatiron-angular->architect->build->options->styles`
+
+![Bootstrap Configuration](https://curriculum-content.s3.amazonaws.com/java-mod-8/ng-basics-bootstrap-config.png)
+
+- Add the following entry before the existing `src/styles.css`:
+  - `node_modules/bootstrap/dist/css/bootstrap.min.css`
+- Now you can use `styles.css` in your HTML just like you did before and Angular
+  will resolve that to the entry you just configured in the `angular.json`
+  configuration file
+
 ## High level structure of our Angular app
 
 As we've seen in the previous section, you can start your application by running
